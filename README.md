@@ -27,3 +27,8 @@ Source object IDs and individual record dates are preserved. Only Existing recor
 No live availability, connector specifications, power ratings, prices, reservations or payments are provided. AC/DC is a charging category, not connector compatibility. An operator data integration is needed for these capabilities.
 
 Dependencies: Leaflet via unpkg, OpenStreetMap tiles and attribution, Google Fonts. Favourites remain in the current browser. Location is requested on button click and is not persisted; viewed map areas affect tile requests. Directions send selected station coordinates to the chosen navigation service.
+
+## Visual theme and logo
+Bright blue (#005BEA), white and deep navy (#101629), with a cyan accent (#48E0D0), inspired by the supplied reference. The custom CasMY identity pairs a C-shaped charging symbol and energy bolt with a clean wordmark. logo.svg is the full horizontal logo; favicon.svg is the compact icon. Both are scalable SVG assets.
+
+To update an existing GitHub deployment, replace index.html and app.js, and upload logo.svg and favicon.svg beside them. All relative asset paths support GitHub project Pages. The existing station dataset is unchanged.
