@@ -27,6 +27,3 @@ Source object IDs and individual record dates are preserved. Only Existing recor
 No live availability, connector specifications, power ratings, prices, reservations or payments are provided. AC/DC is a charging category, not connector compatibility. An operator data integration is needed for these capabilities.
 
 Dependencies: Leaflet via unpkg, OpenStreetMap tiles and attribution, Google Fonts. Favourites remain in the current browser. Location is requested on button click and is not persisted; viewed map areas affect tile requests. Directions send selected station coordinates to the chosen navigation service.
-
-## Visual theme
-Electric red (#C6283D), charcoal (#242832), white surfaces and soft rose highlights. Charging pins, buttons, favourites and active filters share the red accent. Red is branding, not charger availability status.
